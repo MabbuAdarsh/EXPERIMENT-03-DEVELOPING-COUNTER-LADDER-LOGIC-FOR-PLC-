@@ -1,8 +1,8 @@
 # EXPERIMENT-03-DEVELOPING-COUNTER-LADDER-LOGIC-FOR-PLC-
-## NAME:T MOUNISH
-## REGISTER NUMBER:212223240098
-## DEPARTMENT:AI&ML
-
+## NAME: MABBU ADARSH
+## REGISTER NUMBER: 212223100028
+## DEPARTMENT: CSE(CS)
+## YEAR: 2
 
 ### Aim:
 To understand and implement various counter operations in Programmable Logic Controller (PLC) ladder logic.
@@ -64,17 +64,24 @@ Test the counters with the physical push buttons and observe the LEDs or other o
 ### Outputs:
 Up Counter (CTU): The output LED or indicator should activate when the preset count (e.g., 10) is reached.
 Down Counter (CTD): The output should activate when the count reaches zero.
+Up/Down Counter (CTUD): The output should activate when the count reaches the preset value or zero, depending on the inputs.
 
-  Device a plc ladder logic that can read data from two sensors providing the counting operation starting from 0 to 10 and switch on the convayer belt reaching the packet session and seal the packet after 5 seconds of delay
-    
 ### Simulation Screenshots:
-## up counter: 
+## Counter UP:
+![image](https://github.com/user-attachments/assets/e4abfbff-3774-4f46-9a8e-de1e7073fd32)
+## Counter Down:
+![image](https://github.com/user-attachments/assets/8dd7c37b-e712-47be-9948-187b31c61939)
 
-![Screenshot 2025-03-07 161135](https://github.com/user-attachments/assets/8b536029-3696-4052-8d27-3cb5224494a9)
+### Problem Statement:
+Device a PLC lader logic that can read data from two sensors providing the counting operation starting from 0 to 10 and switch on convirment reaching the packet station and seal the packet after 5sec of delay.
 
-## down counter:
+## Counter UP:
 
-![Screenshot 2025-03-07 160211](https://github.com/user-attachments/assets/1ec1831a-a077-42b5-8e4c-1592fda43bd4)
+![image](https://github.com/user-attachments/assets/68da64ba-e409-4b3d-b22a-18a187f4da06)
+
+## Counter Down : 
+
+![image](https://github.com/user-attachments/assets/b963e590-d1b2-4aa8-b673-cd025a8e2feb)
 
 ### Results:
 The ladder logic programs for Up Counter (CTU), Down Counter (CTD), and Up/Down Counter (CTUD) were successfully implemented and tested. The outputs behaved as expected, indicating correct counting operations. The experiment demonstrated how counters are essential in automation for counting events and managing process sequences.
